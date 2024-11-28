@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokepedia</title>
+    <link rel="stylesheet" href="../css/estilospoke.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <nav></nav>
+        <section>
+            <div class="cuadro">
+                <label id="idScore" for="">Puntaje: 0</label>
+                <label id="idIntent" for="">Intentos: 0</label>
+                <labrl >Seleccione el nombre del Pokemon correcto</labrl>
+            </div>
+
+            <div class="image">
+                <img id="idImage" src="../img/pnegro.jpg" alt="">
+            </div>
+
+            <div class="botones">
+                <button id="btn1" onclick="validar(1)">keldeo-ordinary</button>
+                <button id="btn2" onclick="validar(2)">drilbur</button>
+                <button id="btn3" onclick="validar(3)">ninjask</button>
+                <button id="btn4" onclick="validar(4)">excadrill</button>
+                <label id="idAnswer"></label>
+                <button id="btnReboot" onclick="reiniciar()">Reiniciar</button>
+            </div>
+        </section>
+    </div>
+    <script src="../js/jspoke.js"></script>
+</body>
+</html>
